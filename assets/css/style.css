@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #0c0c0c;
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    flex-grow: 1;
+    width: 100vw;
+}
+
+nav {
+    width: 8%;
+    height: 100%;
+    background-color: #cdcdcd;
+    padding: 0px 20px;
+}
+
+nav a {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction:  column;
+    width: 92%;
+    height: 100%;
+}
+
+header {
+    background-image: url(/assets/imagens/ibrahim-boran-zsKFQs2kDpM-unsplash.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+
+main {
+    background-color: white;
+    flex-grow: 1;
+    min-height: 60%;
+    padding: 20px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: rgb(126, 125, 130);
+    height: 140px;
+}
+
+.dados {
+    display: flex;
+    padding: 10px;
+}
+
+.dados p {
+    margin: 5px;
+}
+
+.contato {
+    margin: 0 40px;
+}
+
+.social {
+    margin: 0 auto;
+}
+
+.creditos {
+    display: block;
+    text-align: center;
+    margin: 5px 0;
+}
